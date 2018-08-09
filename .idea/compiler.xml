@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ms-config-server" />
+        <module name="ms-discovery" />
+        <module name="ms-gateway" />
+        <module name="ms-mail" />
+        <module name="ms-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservices-ecommerce-parent" target="1.8" />
+      <module name="ms-config-server" target="1.8" />
+      <module name="ms-discovery" target="1.8" />
+      <module name="ms-gateway" target="1.8" />
+      <module name="ms-mail" target="1.8" />
+      <module name="ms-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

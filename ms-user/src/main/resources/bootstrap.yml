@@ -1,0 +1,15 @@
+server:
+  port: 8084
+spring:
+ # profiles:
+    #  active: dev
+  application:
+    name: ms-user
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: ms-config-server
+ # main:
+  #  web-environment: true
+# spring.main.web-environment=true
